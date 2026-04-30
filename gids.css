@@ -10,8 +10,9 @@ body {
 .flexInBody {
     display: flex;
     width: 100vw;
+    height: 100vh;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 0;
     border: 0;
@@ -139,7 +140,7 @@ a:active {
 }
 .kaart {
     color: white;
-    background-color: rgba(102, 153, 204);
+    background-color: black;
     width: 90vw;
     height: 50vw;
     font-family: 'Times New Roman', Times, serif;
@@ -148,10 +149,39 @@ a:active {
     border-radius: 10px;
     font-size: 5vw;
     display: flex;
-    background-image: url("paginas/media/fotos/top-down.png");
+    background-image: url("paginas/kaart/grond/gelijkvloers.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.flexKaart {
+    width: 100vw;
+    height: 55vw;
+    background-image: url("paginas/kaart/grond/gelijkvloers.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.kaartKnop {
+    position: relative;
+    height: min-content;
+    z-index: 1;
+}
+.knop1 {
+    top: 45%;
+    left: 45%;
+}
+.knop2 {
+    top: 25%;
+    left: 15%;
+}
+.knop3 {
+    top: 35%;
+    left: 10%;
+}
+.knop4 {
+    top: 40%;
+    left: -25%;
 }
 @media only screen and (orientation: landscape) {
     .titleVoor {
