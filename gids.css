@@ -157,31 +157,76 @@ a:active {
 .flexKaart {
     width: 100vw;
     height: 55vw;
-    background-image: url("paginas/kaart/grond/gelijkvloers.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+.kaartFotoGrond {
+    background-image: url("paginas/kaart/grond/gelijkvloers.png");
+}
+.kaartFoto1steWest {
+    background-image: url("paginas/kaart/eerste/1steWest.png");
+}
+.kaartFoto1steOost{
+    background-image: url("paginas/kaart/eerste/1steOost.png");
+}
+.kaartFoto2de {
+    background-image: url("paginas/kaart/tweede/2de.png");
+}
+.kaartFotoTerras {
+    background-image: url("paginas/kaart/derde/terras.png");
+}
 .kaartKnop {
     position: relative;
+    padding: 5vw;
+    padding-bottom: 0;
+    padding-top: 0;
     height: min-content;
     z-index: 1;
 }
+.knop0 {
+    top: 10%;
+    left: 35%;
+}
 .knop1 {
     top: 45%;
-    left: 45%;
+    left: 25%;
 }
 .knop2 {
     top: 25%;
-    left: 15%;
+    left: 0%;
 }
 .knop3 {
     top: 35%;
-    left: 10%;
+    left: 5%;
 }
 .knop4 {
     top: 40%;
-    left: -25%;
+    left: -35%;
+}
+.knop5 {
+    top:90%;
+    left: 30%;
+}
+.knop6 {
+    top: 90%;
+    left: 30%;
+}
+.knop7 {
+    top: 65%;
+    left: 25%;
+}
+.knop8 {
+    top: 90%;
+    left: 18%;
+}
+.knop9 {
+    top: 25%;
+    left: 0%;
+}
+.knop16 {
+    top: 45%;
+    left: -28%;
 }
 @media only screen and (orientation: landscape) {
     .titleVoor {
