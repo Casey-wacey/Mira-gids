@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    src: url();
+}
+body {
+    color: rgba(102, 153, 204);
+    background-color: black;
+    font-weight: bold;
+}
+.flexInBody {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    border: 0;
+}
+.titleVoor {
+    text-align: center;
+    font-size: 5vw;
+    display: flex;
+    height: 10vh;
+    width: 95vw;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    color: rgba(102, 153, 204);
+    justify-content: center;
+    align-items: center;
+}
+p, h3 {
+    color: rgba(102, 153, 204);
+}
+table, tr, td {
+    border: 0.3vw solid black;
+    border-radius: 10px;
+}
+.button {
+    color: white;
+    background-color: rgba(102, 153, 204);
+    height: 15vw;
+    width: 15vw;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.buttonGroen {
+    color: white;
+    background-color: #66cc66;
+    height: 10vw;
+    width: 10vw;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.buttonRood {
+    color: white;
+    background-color: #cc6666;
+    height: 10vw;
+    width: 10vw;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+img {
+    border: 1px, solid, rgba(102, 153, 204);
+}
+video {
+    max-width: 45vw;
+    max-height: 45vh;
+    min-width: 15vw;
+    min-height: 15vh;
+    border: 1px, solid, rgba(102, 153, 204);
+}
+.logo {
+    position: fixed;
+    width: 25vw;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    border: 0px;
+}
+.flexOpties {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.flexTrajecten {
+    display: flex;
+    flex-direction: column;
+}
+.trajecten {
+    color: white;
+    background-color: rgba(102, 153, 204);
+    height: 10vh;
+    width: 20vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 3vw;
+}
+.logoVoor {
+    position: fixed;
+    bottom: 2.5vh;
+    right: 2.5vw;
+    width: 25vw;
+    z-index: 1;
+    border: 0px;
+}
+a {
+    font-size: 18pt;
+    color: rgba(102, 153, 204);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(82, 123, 163);;
+    text-decoration: underline;
+}
+@keyframes roteren {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.roterend {
+    animation: roteren 20s linear infinite;
+    min-width: unset;
+    min-height: unset;
+    max-width: unset;
+    max-height: unset;
+    width: 75%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.fotoPagina {
+    width: 50vw;
+}
+.kaart {
+    color: white;
+    background-color: rgba(102, 153, 204);
+    width: 90vw;
+    height: 50vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 5vw;
+    display: flex;
+    background-image: url("paginas/media/fotos/top-down.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media only screen and (orientation: landscape) {
+    .titleVoor {
+        font-size: 2vw;
+    }
+    .button, .buttonGroen, .buttonRood {
+        height: 3vw;
+        width: 3vw;
+    }
+    .roterend {
+        width: 20%;
+    }
+    .kaart {
+        width: 45vw;
+        height: 25vw;
+    }
+}
