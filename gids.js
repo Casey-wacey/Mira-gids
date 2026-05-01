@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   nummer = ""
+  nummerGecorrigeert = 0
   document
     .getElementById("nr1")
     .addEventListener("click", function() {
@@ -79,7 +80,21 @@ document.addEventListener("DOMContentLoaded", function() {
   document
     .getElementById("goTo")
     .addEventListener("click", function() {
-        location.href = 'paginas/pagina.html?nummer=' +nummer;
+      nummerGecorrigeert = Number(nummer);
+      if (nummerGecorrigeert >= 70) {
+        nummerGecorrigeert -= 7
+      } else if (nummerGecorrigeert >= 66) {
+        nummerGecorrigeert -= 4
+      } else if (nummerGecorrigeert >= 56) {
+        nummerGecorrigeert -= 3
+      }
+      else if (nummerGecorrigeert >= 37) {
+        nummerGecorrigeert -= 2
+      }
+      else if (nummerGecorrigeert >= 21) {
+        nummerGecorrigeert -= 1
+      }
+        location.href = 'paginas/pagina.html?nummer=' + nummerGecorrigeert;
     })
   document
     .getElementById("aarde")
