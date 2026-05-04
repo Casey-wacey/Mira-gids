@@ -5,681 +5,693 @@ function getUrlParameterByName(name) {
 document.addEventListener("DOMContentLoaded", function() {
     data = [
         {
-        title: "Introductie Pater Pieraerts",
+        titel: "Introductie Pater Pieraerts",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         ExtraextraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Welkom",
+        titel: "Welkom",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Slingerproef van Foucault",
+        titel: "Slingerproef van Foucault",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Zeiss-lenzenkijker KMS",
+        titel: "Zeiss-lenzenkijker KMS",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Interactieve sterrenkaart",
+        titel: "Interactieve sterrenkaart",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Foto Tarantulanevel",
+        titel: "Foto Tarantulanevel",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Optische banken",
+        titel: "Optische banken",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Radiometeoren",
+        titel: "Radiometeoren",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Radioactiviteit",
+        titel: "Radioactiviteit",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Geschiedenis heelal",
+        titel: "Geschiedenis heelal",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Zonnestelsel",
+        titel: "Zonnestelsel",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Kometen en meteoren",
+        titel: "Kometen en meteoren",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Nakhla-meteoriet",
+        titel: "Nakhla-meteoriet",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Sterevolutie",
+        titel: "Sterevolutie",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Kosmologie",
+        titel: "Kosmologie",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Afmetingen heelal",
+        titel: "Afmetingen heelal",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Slingerbeweging",
+        titel: "Slingerbeweging",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Afstand vs. Lichttijd",
+        titel: "Afstand vs. Lichttijd",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Afstand vs. Lichttijd",
+        titel: "Afstand vs. Lichttijd",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Weegschaal",
+        titel: "Weegschaal",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Galileo Galilei",
+        titel: "Galileo Galilei",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Zonnestelsel als pannenkoek",
+        titel: "Zonnestelsel als pannenkoek",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Sterren als zandkorrels",
+        titel: "Sterren als zandkorrels",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Afstanden meten in het heelal",
+        titel: "Afstanden meten in het heelal",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Met de bus naar de Zon",
+        titel: "Met de bus naar de Zon",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Zwart gat - uitleg 1",
+        titel: "Zwart gat - uitleg 1",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Zwart gat - uitleg 2",
+        titel: "Zwart gat - uitleg 2",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Snelheden en bewegingen",
+        titel: "Snelheden en bewegingen",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Wandschildering zonnestelsel",
+        titel: "Wandschildering zonnestelsel",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Wereldbol",
+        titel: "Wereldbol",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Lichthinder",
+        titel: "Lichthinder",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Seizoenen",
+        titel: "Seizoenen",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "ISS",
+        titel: "ISS",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Ruimtevaart",
+        titel: "Ruimtevaart",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Methodes exoplaneten",
+        titel: "Methodes exoplaneten",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Digitaal weerstation",
+        titel: "Digitaal weerstation",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Ruimtevaart",
+        titel: "Ruimtevaart",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Maan",
+        titel: "Maan",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Heliostaat (binnengedeelte)",
+        titel: "Heliostaat (binnengedeelte)",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Lego-maquette SDO",
+        titel: "Lego-maquette SDO",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Lichtbreking",
+        titel: "Lichtbreking",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Kleurenwiel en RGB-spots",
+        titel: "Kleurenwiel en RGB-spots",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Spiegels",
+        titel: "Spiegels",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Spectroscopie",
+        titel: "Spectroscopie",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Dwarsdoorsnede Zon",
+        titel: "Dwarsdoorsnede Zon",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Plasmabol",
+        titel: "Plasmabol",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Statisch planetarium",
+        titel: "Statisch planetarium",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Exoplaneten",
+        titel: "Exoplaneten",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Waarnemingsterras",
+        titel: "Waarnemingsterras",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Pater Pieraerts-koepel",
+        titel: "Pater Pieraerts-koepel",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Geacclim. telescoopruimte",
+        titel: "Geacclim. telescoopruimte",
         algemeen: "uitleg algemeen",
         afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Heliostaat (buitengedeelte)",
+        titel: "Heliostaat (buitengedeelte)",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Armillairsfeer (deel 1)",
+        titel: "Armillairsfeer (deel 1)",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Armillairsfeer (deel 2)",
+        titel: "Armillairsfeer (deel 2)",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Weerkast (linkerkant)",
+        titel: "Weerkast (linkerkant)",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Weerkast (rechterkant)",
+        titel: "Weerkast (rechterkant)",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Grondthermometers",
+        titel: "Grondthermometers",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Pluviometer oud",
+        titel: "Pluviometer oud",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Pluviograaf",
+        titel: "Pluviograaf",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Pluviometer",
+        titel: "Pluviometer",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Kleine thermometerhut",
+        titel: "Kleine thermometerhut",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Grote thermometerhut",
+        titel: "Grote thermometerhut",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Saturnus V vs. Abdijkerk",
+        titel: "Saturnus V vs. Abdijkerk",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "450mm Obsession Dobson",
+        titel: "450mm Obsession Dobson",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "400mm Meade ACF",
+        titel: "400mm Meade ACF",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Lego-maquette MIRA",
+        titel: "Lego-maquette MIRA",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Valversnelling vacuum",
+        titel: "Valversnelling vacuum",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Hellend vlak",
+        titel: "Hellend vlak",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Behoud impulsmoment",
+        titel: "Behoud impulsmoment",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Wieg van Newton",
+        titel: "Wieg van Newton",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Waterbeertjes",
+        titel: "Waterbeertjes",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Arecibo-maquette",
+        titel: "Arecibo-maquette",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Molecules / Vgl. van Drake",
+        titel: "Molecules / Vgl. van Drake",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        title: "Proba-2 maquette",
+        titel: "Proba-2 maquette",
         algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="lin" id="afbeelding" class="fotoPagina">',
+        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
         extra: "extra uitleg",
-        video: 'media/videos/placeholder.mp4',
+        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
         audioTekst: "audio",
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     }
     ];
     
     let nummer = getUrlParameterByName('nummer');
-    document.getElementById("pageTitle").innerHTML = data[nummer].title;
-    document.getElementById("title").innerHTML = data[nummer].title;
+    document.getElementById("pagetitel").innerHTML = data[nummer].titel;
+    document.getElementById("titel").innerHTML = data[nummer].titel;
     document.getElementById("algemeen").innerHTML = data[nummer].algemeen;
-    document.getElementById("afbeelding").innerHTML = data[nummer].afbeelding;
-    document.getElementById("extra").innerHTML = data[nummer].extra;
-    document.getElementById("video").src = data[nummer].video;
-    document.getElementById("audioTekst").innerHTML = data[nummer].audioTekst;
-    document.getElementById("audio").innerHTML = '<source src="media/audio/N' + nummer +'.mp3">'
-    document.getElementById("extraAudio").innerHTML = data[nummer].extraAudio;
+    if (data[nummer].afbeelding) {
+        document.getElementById("afbeelding").innerHTML = data[nummer].afbeelding;
+    }
+    if (data[nummer].extra) {
+        document.getElementById("extra").innerHTML = data[nummer].extra;
+    }
+    if (data[nummer].video) {
+        document.getElementById("video").innerHTML = data[nummer].video;
+    }
+    if (data[nummer].audioTekst) {
+        document.getElementById("audioTekst").innerHTML = data[nummer].audioTekst;
+    }
+    if (data[nummer].audio) {
+        document.getElementById("audio").innerHTML = '<audio controls id="audio" src="media/audio/N' + nummer +'.mp3"></audio> <br>'
+    }
+    if (data[nummer].extraAudio) {
+        document.getElementById("extraAudio").innerHTML = data[nummer].extraAudio;
+    }
 })

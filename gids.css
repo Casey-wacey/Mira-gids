@@ -17,7 +17,7 @@ body {
     margin: 0;
     border: 0;
 }
-.titleVoor {
+.titelVoor {
     text-align: center;
     font-size: 5vw;
     display: flex;
@@ -45,6 +45,8 @@ table, tr, td {
     font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    border: 0px, hidden, transparent ;
+    border-radius: 5px;
 }
 .buttonGroen {
     color: white;
@@ -135,6 +137,9 @@ a:active {
     vertical-align: middle;
     margin-right: 8px;
 }
+.trajectKnop {
+    color: white;
+}
 .fotoPagina {
     width: 50vw;
 }
@@ -170,8 +175,11 @@ a:active {
 .kaartFoto1steOost{
     background-image: url("paginas/kaart/eerste/1steOost.png");
 }
-.kaartFoto2de {
-    background-image: url("paginas/kaart/tweede/2de.png");
+.kaartFoto2deWest {
+    background-image: url("paginas/kaart/tweede/2de\ West.png");
+}
+.kaartFoto2deOost {
+    background-image: url("paginas/kaart/tweede/2de\ Oost.png");
 }
 .kaartFotoTerras {
     background-image: url("paginas/kaart/derde/terras.png");
@@ -301,24 +309,24 @@ a:active {
     left: 7%;
 }
 .knop29 {
-    top: 0%;
-    left: 0%;
+    top: 25%;
+    left: 5%;
 }
 .knop30 {
-    top: 0%;
-    left: 0%;
+    top: 67%;
+    left: -7%;
 }
 .knop31 {
-    top: 0%;
-    left: 0%;
+    top: 73%;
+    left: -21%;
 }
 .knop32 {
-    top: 0%;
-    left: 0%;
+    top: 67%;
+    left: -20%;
 }
 .knop33 {
-    top: 0%;
-    left: 0%;
+    top: 73%;
+    left: -34%;
 }
 .knop34 {
     top: 0%;
@@ -481,7 +489,7 @@ a:active {
     left: 0%;
 }
 @media only screen and (orientation: landscape) {
-    .titleVoor {
+    .titelVoor {
         font-size: 2vw;
     }
     .button, .buttonGroen, .buttonRood {
