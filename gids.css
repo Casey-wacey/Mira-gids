@@ -34,10 +34,10 @@ p, h3 {
     color: rgba(102, 153, 204);
 }
 h3 {
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 .terug {
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
 }
 table, tr, td {
     border: 0.3vw solid black;
