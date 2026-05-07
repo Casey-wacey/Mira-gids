@@ -563,15 +563,6 @@ document.addEventListener("DOMContentLoaded", function() {
         extraAudio: '<source src="media/audio/placeholder.mp3">'
     },
     {
-        titel: "Saturnus V vs. Abdijkerk",
-        algemeen: "uitleg algemeen",
-        afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
-        extra: "extra uitleg",
-        video: '<video controls id="video" src="media/videos/placeholder.mp4"></video> <br>',
-        audioTekst: "audio",
-        extraAudio: '<source src="media/audio/placeholder.mp3">'
-    },
-    {
         titel: "450mm Obsession Dobson",
         algemeen: "uitleg algemeen",
         afbeelding: '<img src="media/fotos/placeholder.jpg" alt="foto" id="afbeelding" class="fotoPagina">',
@@ -688,9 +679,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (data[nummer].audioTekst) {
         document.getElementById("audioTekst").innerHTML = data[nummer].audioTekst;
     }
-    if (data[nummer].audio) {
-        document.getElementById("audio").innerHTML = '<audio controls id="audio" src="media/audio/N' + nummer +'.mp3"></audio> <br>'
-    }
+    document.getElementById("audio").innerHTML = '<audio controls id="audio" src="media/audio/N' + nummer +'.mp3"></audio> <br>'
     if (data[nummer].extraAudio) {
         document.getElementById("extraAudio").innerHTML = data[nummer].extraAudio;
     }

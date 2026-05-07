@@ -83,7 +83,9 @@ document.addEventListener("DOMContentLoaded", function() {
       nummerGecorrigeert = Number(nummer);
       if (nummerGecorrigeert >= 70) {
         nummerGecorrigeert -= 7
-      } else if (nummerGecorrigeert >= 66) {
+      }  else if (nummerGecorrigeert >= 66) {
+        nummerGecorrigeert -= 5
+      } else if (nummerGecorrigeert >= 65) {
         nummerGecorrigeert -= 4
       } else if (nummerGecorrigeert >= 56) {
         nummerGecorrigeert -= 3

@@ -70,10 +70,7 @@ img {
     border: 1px, solid, rgba(102, 153, 204);
 }
 video {
-    max-width: 45vw;
-    max-height: 45vh;
-    min-width: 15vw;
-    min-height: 15vh;
+    width: 90vw;
     border: 1px, solid, rgba(102, 153, 204);
 }
 .logo {
@@ -81,7 +78,7 @@ video {
     width: 25vw;
     top: 10px;
     right: 10px;
-    z-index: 1;
+    z-index: -1;
     border: 0px;
 }
 .flexOpties {
@@ -135,13 +132,12 @@ a:active {
     width: 75%;
     border-radius: 50%;
     vertical-align: middle;
-    margin-right: 8px;
 }
 .trajectKnop {
     color: white;
 }
 .fotoPagina {
-    width: 50vw;
+    width: 90vw;
 }
 .kaart {
     color: white;
@@ -154,7 +150,7 @@ a:active {
     border-radius: 10px;
     font-size: 5vw;
     display: flex;
-    background-image: url("paginas/kaart/grond/gelijkvloers.png");
+    background-image: url("paginas/kaart/grond/gelijkvloers.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -166,23 +162,33 @@ a:active {
     background-repeat: no-repeat;
     background-position: center;
 }
+.pijl {
+    color: black;
+    background-color: rgba(102, 153, 204);
+    width: 9vw;
+    height: 9vw;
+    text-align: center;
+    border-radius: 100%;
+    margin: 4px;
+}
 .kaartFotoGrond {
-    background-image: url("paginas/kaart/grond/gelijkvloers.png");
+    background-image: url("paginas/kaart/grond/gelijkvloers.svg");
+    width: 100vw;
 }
 .kaartFoto1steWest {
-    background-image: url("paginas/kaart/eerste/1steWest.png");
+    background-image: url("paginas/kaart/eerste/1steWest.svg");
 }
 .kaartFoto1steOost{
-    background-image: url("paginas/kaart/eerste/1steOost.png");
+    background-image: url("paginas/kaart/eerste/1steOost.svg");
 }
 .kaartFoto2deWest {
-    background-image: url("paginas/kaart/tweede/2de\ West.png");
+    background-image: url("paginas/kaart/tweede/2de\ West.svg");
 }
 .kaartFoto2deOost {
-    background-image: url("paginas/kaart/tweede/2de\ Oost.png");
+    background-image: url("paginas/kaart/tweede/2de\ Oost.svg");
 }
 .kaartFotoTerras {
-    background-image: url("paginas/kaart/derde/terras.png");
+    background-image: url("paginas/kaart/derde/terras.svg");
 }
 .kaartKnop {
     position: relative;
@@ -213,24 +219,24 @@ a:active {
     left: -35%;
 }
 .knop5 {
-    top:90%;
-    left: 30%;
-}
-.knop6 {
-    top: 90%;
-    left: 30%;
-}
-.knop7 {
-    top: 65%;
+    top: 80%;
     left: 25%;
 }
+.knop6 {
+    top: 80%;
+    left: 25%;
+}
+.knop7 {
+    top: 50%;
+    left: 20%;
+}
 .knop8 {
-    top: 90%;
-    left: 18%;
+    top: 80%;
+    left: 13%;
 }
 .knop9 {
-    top: 25%;
-    left: 0%;
+    top: 5%;
+    left: -10%;
 }
 .knop10 {
     top: 5%;
@@ -257,8 +263,8 @@ a:active {
     left: -20%;
 }
 .knop16 {
-    top: 40%;
-    left: -28%;
+    top: 30%;
+    left: -33%;
 }
 .knop17 {
     top: 10%;
@@ -491,6 +497,7 @@ a:active {
     .button, .buttonGroen, .buttonRood {
         height: 3vw;
         width: 3vw;
+        font-size: smaller;
     }
     .roterend {
         width: 20%;
