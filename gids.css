@@ -144,6 +144,16 @@ a:active {
 .fotoPagina {
     width: 90vw;
 }
+.flexInBodyKaart {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+}
 .kaart {
     color: white;
     background-color: black;
