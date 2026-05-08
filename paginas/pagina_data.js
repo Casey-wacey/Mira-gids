@@ -664,9 +664,15 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
     
     let nummer = getUrlParameterByName('nummer');
-    document.getElementById("pagetitel").innerHTML = data[nummer].titel;
-    document.getElementById("titel").innerHTML = data[nummer].titel;
-    document.getElementById("algemeen").innerHTML = data[nummer].algemeen;
+    if (data[nummer].titel) {
+        document.getElementById("pagetitel").innerHTML = data[nummer].titel;
+    }
+    if (data[nummer].titel) {
+        document.getElementById("titel").innerHTML = data[nummer].titel;
+    }
+    if (data[nummer].algemeen) {
+        document.getElementById("algemeen").innerHTML = data[nummer].algemeen;
+    }
     if (data[nummer].afbeelding) {
         document.getElementById("afbeelding").innerHTML = data[nummer].afbeelding;
     }
